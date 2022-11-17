@@ -6,14 +6,9 @@ import civilitystates.NeutralState;
 public class NpcRelations {
     private CivilityState civilityLevel = new NeutralState();
 
-    public civilitystates.CivilityState getCivilityLevel() {
-        return civilityLevel;
-    }
-
     public void setCivilityLevel(CivilityState civilityLevel) {
         this.civilityLevel = civilityLevel;
     }
-// getter, setter
 
     public void deescalateLevel() {
         civilityLevel.deescalate(this);

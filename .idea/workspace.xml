@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96ef8ade-4178-4dd5-aac2-618b676d92b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StatePatternExample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/civilitystates/CivilityState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/civilitystates/HostileState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/civilitystates/NeutralState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/civilitystates/SuspiciousState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/relations/NpcRelations.java" afterDir="false" />
+    <list default="true" id="96ef8ade-4178-4dd5-aac2-618b676d92b0" name="Changes" comment="Created a basic state pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/relations/NpcRelations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relations/NpcRelations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +37,9 @@
     "last_opened_file_path": "C:/Users/ellio/Documents/StatePatternExample",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,8 +78,18 @@
       <workItem from="1668386858074" duration="1422000" />
       <workItem from="1668388307457" duration="401000" />
       <workItem from="1668388726791" duration="815000" />
-      <workItem from="1668389567541" duration="598000" />
+      <workItem from="1668389567541" duration="930000" />
+      <workItem from="1668556102128" duration="785000" />
+      <workItem from="1668648457587" duration="3436000" />
     </task>
+    <task id="LOCAL-00001" summary="Created a basic state pattern">
+      <created>1668390353847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668390353847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created a basic state pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a basic state pattern" />
   </component>
 </project>
