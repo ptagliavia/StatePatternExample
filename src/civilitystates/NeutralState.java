@@ -5,7 +5,7 @@ public class NeutralState implements CivilityState {
 
     @Override
     public void deescalate(NpcRelations relations) {
-        //already in default state
+        //already in lowest state
     }
 
     @Override
@@ -15,6 +15,6 @@ public class NeutralState implements CivilityState {
 
     @Override
     public void sayProximityDialog() {
-        System.out.println("Oh, it's you.");
+        System.out.println("Guard says \"Oh, it's you.\"");
     }
 }

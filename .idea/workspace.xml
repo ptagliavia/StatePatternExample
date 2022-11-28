@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="96ef8ade-4178-4dd5-aac2-618b676d92b0" name="Changes" comment="Created a basic state pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/civilitystates/HostileState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/civilitystates/HostileState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/civilitystates/NeutralState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/civilitystates/NeutralState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/civilitystates/SuspiciousState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/civilitystates/SuspiciousState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/relations/NpcRelations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/relations/NpcRelations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,20 +31,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ellio/Documents/StatePatternExample",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ellio/Documents/StatePatternExample&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -81,6 +85,9 @@
       <workItem from="1668389567541" duration="930000" />
       <workItem from="1668556102128" duration="785000" />
       <workItem from="1668648457587" duration="3436000" />
+      <workItem from="1669577006455" duration="5151000" />
+      <workItem from="1669584303743" duration="1562000" />
+      <workItem from="1669588091155" duration="3008000" />
     </task>
     <task id="LOCAL-00001" summary="Created a basic state pattern">
       <created>1668390353847</created>

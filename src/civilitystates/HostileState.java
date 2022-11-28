@@ -10,10 +10,10 @@ public class HostileState implements CivilityState {
     }
     @Override
     public void escalate(NpcRelations relations) {
-        //already in default state
+        //already in highest state
     }
     @Override
     public void sayProximityDialog() {
-        System.out.println("Stop right there, criminal scum!");
+        System.out.println("Guard says \"Stop right there, criminal scum!\"");
     }
 }

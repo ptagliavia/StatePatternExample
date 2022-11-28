@@ -5,7 +5,6 @@ import relations.NpcRelations;
 public class SuspiciousState implements CivilityState {
     @Override
     public void deescalate(NpcRelations relations) {
-
         relations.setCivilityLevel(new NeutralState());
     }
 
@@ -16,6 +15,6 @@ public class SuspiciousState implements CivilityState {
 
     @Override
     public void sayProximityDialog() {
-        System.out.println(". . . I'm  watching you.");
+        System.out.println("Guard says \". . . I'm  watching you.\"");
     }
 }

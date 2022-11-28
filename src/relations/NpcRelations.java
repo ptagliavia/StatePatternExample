@@ -11,10 +11,12 @@ public class NpcRelations {
     }
 
     public void deescalateLevel() {
+        System.out.println("***DEESCALATING***");
         civilityLevel.deescalate(this);
     }
 
     public void escalateLevel() {
+        System.out.println("***ESCALATING***");
         civilityLevel.escalate(this);
     }
 
@@ -23,16 +25,12 @@ public class NpcRelations {
     }
 
     public static void main(String[] args) {
-        NpcRelations test = new NpcRelations();
+        NpcRelations relations = new NpcRelations();
 
-        test.proximityGreeting();
-
-        test.escalateLevel();
-
-        test.proximityGreeting();
-
-        test.escalateLevel();
-
-        test.proximityGreeting();
+        relations.proximityGreeting();
+        relations.escalateLevel();
+        relations.proximityGreeting();
+        relations.escalateLevel();
+        relations.proximityGreeting();
     }
 }
